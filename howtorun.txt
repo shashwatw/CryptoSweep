@@ -1,0 +1,14 @@
+-npx hardhat node
+
+split terminal
+
+-npx hardhat run scripts/deploy.js --network localhost
+
+-npm run dev
+
+contract on sepolia at address: 0x9Ba783D082454dC6833701C70F1922aFF3bCbec4
+
+NOW AFTER DEPLOY
+-npx hardhat run scripts/deploy.js --network holesky
+copy address paste in context>constants
+-npm run dev
