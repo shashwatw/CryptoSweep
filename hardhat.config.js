@@ -1,7 +1,7 @@
 const fs = require("fs");
 require("@nomiclabs/hardhat-waffle");
 
-const privateKey = fs.readFileSync(".secret").toString().trim();
+const privateKey = process.env.PRIVATE_KEY;
 
 // Chainstack Execution client HTTPS endpoint for Holeski
 const HOLESKI_RPC_URL =
